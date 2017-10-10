@@ -15,6 +15,15 @@ a:link{
     text-decoration: none;
 }
 
+// LAYOUT
+.container{
+    width: 100%;
+    max-width: 1040px;
+    display: table;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 // HEADER
 header{
     background-image: url('../img/head-bg.jpg');
@@ -40,4 +49,27 @@ header{
             }
         }
     }
+}
+
+// TEXT-LINE
+section#text-line{
+    padding: 38px 0;
+}
+
+section#text-line .flex-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .column{
+        // width: 28%;
+        padding: 0 20px;
+    }
+}
+
+section#text-line p{
+    color: $wred;
+    font-family: 'Avenir-Light';
+    font-size: 19px;
+    line-height: 24px;
+    margin: 0;
 }

@@ -43,6 +43,13 @@ body {
 a:link {
   text-decoration: none; }
 
+.container {
+  width: 100%;
+  max-width: 1040px;
+  display: table;
+  margin: 0 auto;
+  padding: 0 20px; }
+
 header {
   background-image: url("../img/head-bg.jpg");
   background-position: top center;
@@ -63,3 +70,27 @@ header {
         font-family: 'Avenir-Heavy';
         color: white;
         font-size: 36px; }
+
+section#text-line {
+  padding: 38px 0; }
+
+section#text-line .flex-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  section#text-line .flex-cont .column {
+    padding: 0 20px; }
+
+section#text-line p {
+  color: #cd1719;
+  font-family: 'Avenir-Light';
+  font-size: 19px;
+  line-height: 24px;
+  margin: 0; }
