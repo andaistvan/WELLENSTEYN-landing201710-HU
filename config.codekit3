@@ -341,13 +341,21 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/img\/big-rusty-bg.jpg": {
+		"ft": 16384,
+		"iS": 668312,
+		"oA": 0,
+		"oAP": "\/img\/big-rusty-bg.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/head-bg.jpg": {
 		"ft": 16384,
 		"iS": 696441,
 		"oA": 0,
 		"oAP": "\/img\/head-bg.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/img\/kabatok\/kabat1.png": {
 		"ft": 32768,
@@ -411,7 +419,15 @@
 		"oA": 0,
 		"oAP": "\/img\/old-rusty-metal-texture-smaller.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
+		},
+	"\/img\/old-rusty-transp.jpg": {
+		"ft": 16384,
+		"iS": 623279,
+		"oA": 0,
+		"oAP": "\/img\/old-rusty-transp.jpg",
+		"oF": 0,
+		"opt": 1
 		},
 	"\/img\/wellensteyn-logo-red-362x279.png": {
 		"ft": 32768,
@@ -419,7 +435,25 @@
 		"oA": 0,
 		"oAP": "\/img\/wellensteyn-logo-red-362x279.png",
 		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/wellensteyn-logo-white-348x369.png": {
+		"ft": 32768,
+		"iS": 12126,
+		"oA": 0,
+		"oAP": "\/img\/wellensteyn-logo-white-348x369.png",
+		"oF": 0,
 		"opt": 0
+		},
+	"\/img\/wellensteyn-plus.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/wellensteyn-plus.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/index.html": {
 		"ft": 8192,
@@ -458,7 +492,7 @@
 	"creationDate": 529350687,
 	"displayValue": "WELLENSTEYN landing201710-HU",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-leo"
+	"iconImageName": "\/img\/wellensteyn-logo-red-362x279.png"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
