@@ -59,7 +59,7 @@ header {
   position: relative; }
   @media (max-width: 400px) {
     header {
-      background-size: 400%;
+      background-size: 1600px;
       min-height: 700px; } }
   header .link-cont {
     position: absolute;
@@ -69,7 +69,7 @@ header {
     top: 445px; }
     @media (max-width: 400px) {
       header .link-cont {
-        top: 325px; } }
+        top: 375px; } }
     header .link-cont p {
       text-align: center; }
       header .link-cont p a {
@@ -219,7 +219,7 @@ footer {
             font-size: 28px;
             line-height: 34px; } }
   footer .container {
-    padding: 60px 20px;
+    padding: 60px 0;
     width: 100%;
     max-width: 960px; }
     footer .container .contact-flex {
@@ -236,19 +236,51 @@ footer {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center; }
+      @media (max-width: 996px) {
+        footer .container .contact-flex {
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column; } }
 
-.contact-cont h6 {
-  color: white;
-  margin: 0px;
-  font-family: 'Avenir-Black';
-  font-size: 36px;
-  line-height: 60px;
-  text-transform: uppercase; }
+.contact-cont {
+  -ms-flex-preferred-size: 2;
+      flex-basis: 2; }
+  @media (max-width: 996px) {
+    .contact-cont {
+      text-align: center; } }
+  .contact-cont h6 {
+    color: white;
+    margin: 0px;
+    font-family: 'Avenir-Black';
+    font-size: 36px;
+    line-height: 60px;
+    text-transform: uppercase; }
+    @media (max-width: 630px) {
+      .contact-cont h6 {
+        font-size: 20px;
+        line-height: 40px; } }
+  .contact-cont p {
+    color: white;
+    margin: 0px;
+    font-family: 'Avenir-Light';
+    font-size: 36px;
+    line-height: 60px;
+    text-transform: uppercase; }
+    @media (max-width: 630px) {
+      .contact-cont p {
+        font-size: 20px;
+        line-height: 40px; } }
 
-.contact-cont p {
-  color: white;
-  margin: 0px;
-  font-family: 'Avenir-Light';
-  font-size: 36px;
-  line-height: 60px;
-  text-transform: uppercase; }
+.footer-logo {
+  -ms-flex-preferred-size: 1;
+      flex-basis: 1; }
+  @media (max-width: 996px) {
+    .footer-logo img {
+      margin-top: 60px; } }
+  @media (max-width: 450px) {
+    .footer-logo img {
+      width: 90%;
+      display: table;
+      margin-left: auto;
+      margin-right: auto; } }

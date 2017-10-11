@@ -34,7 +34,7 @@ header{
     min-height: 999px;
     position: relative;
     @media(max-width:400px){
-        background-size: 400%;
+        background-size: 1600px;
         min-height: 700px;
     }
     .link-cont{
@@ -45,7 +45,7 @@ header{
         display: block;
         top: 445px;
         @media(max-width:400px){
-            top: 325px;
+            top: 375px;
         }
         p{
             text-align: center;
@@ -205,25 +205,36 @@ footer{
         }
     }
     .container{
-        padding: 60px 20px;
+        padding: 60px 0;
         width: 100%;
         max-width: 960px;
         .contact-flex{
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            align-items: center;            
+            align-items: center;
+            @media(max-width: 996px){
+                flex-direction: column;
+            }         
         }
     }
 }
 
 .contact-cont{
+    flex-basis: 2;
+    @media(max-width: 996px){
+        text-align: center;       
+    }
     h6{
         color: white;
         margin: 0px;
         font-family: 'Avenir-Black';
         font-size: 36px;
         line-height: 60px;
+        @media(max-width: 630px){
+            font-size: 20px;
+            line-height: 40px;
+        }
         text-transform: uppercase;
     }
     p{
@@ -232,6 +243,25 @@ footer{
         font-family: 'Avenir-Light';
         font-size: 36px;
         line-height: 60px;
+        @media(max-width: 630px){
+            font-size: 20px;
+            line-height: 40px;
+        }
         text-transform: uppercase;
+    }
+}
+
+.footer-logo{
+    flex-basis: 1;
+    img{
+        @media(max-width: 996px){
+            margin-top: 60px;
+        }
+        @media(max-width: 450px){
+            width: 90%;
+            display: table;
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
 }
